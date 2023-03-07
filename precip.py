@@ -70,7 +70,7 @@ contour = ax.pcolormesh(lons, lats, trend_data,vmin = -0.07,vmax = 0.07, cmap=cm
 
 # Add a colorbar
 cbar = plt.colorbar(contour, ax=ax)
-cbar.ax.set_ylabel('Trend (mm/day/decade)')
+cbar.ax.set_ylabel('Trend (mm/year)')
 
 # Add a title and show the plot
 plt.title('Trend in Precipitation (1990-2020)')
